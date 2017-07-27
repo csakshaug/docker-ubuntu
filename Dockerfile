@@ -1,5 +1,5 @@
 FROM       ubuntu:16.04
-MAINTAINER Christian Saksahug "https://github.com/csakshaug"
+MAINTAINER Christian Sakshaug "https://github.com/csakshaug"
 
 RUN apt-get update && apt-get upgrade -y && apt-get install -y openssh-server unzip curl vim git && rm -rf /var/lib/apt/lists/*
 
